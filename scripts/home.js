@@ -72,6 +72,8 @@ function searchPosts(){
         })
       })
       })
+     }else{
+       document.querySelector('.posts').innerHTML = `<h4>No Data Found !</h4>`; 
      }
 
   })
